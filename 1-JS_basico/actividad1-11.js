@@ -1,15 +1,38 @@
 let tecla = window.prompt('Pulsa una tecla de WASD')
 
-if (tecla === 'a') {
-    console.log('izquierda!')
-}else if(tecla ==='d'){
-    console.log('derecha!')
-}else if(tecla ==='w'){
-    console.log('saltar!')
-}else if(tecla ==='s'){
-    console.log('agacharse!')
-}else {
-    console.log('no sé que letra es esa...!')
+// if (tecla === 'a') {
+//     console.log('izquierda!')
+// }else if(tecla ==='d'){
+//     console.log('derecha!')
+// }else if(tecla ==='w'){
+//     console.log('saltar!')
+// }else if(tecla ==='s'){
+//     console.log('agacharse!')
+// }else if(tecla==='a' && tecla==='w') {
+//     console.log('saltar hacia atrás!')
+// }else {
+//     console.log('no sé que letra es esa...!')
+// }
+
+
+
+switch (tecla) {
+    case 'a':
+        console.log('uno!')
+        break;
+    case 'd':
+        console.log('derecha!')
+        break;
+    case 's':
+        console.log('agacharse!')
+        break;
+    case 'w':
+        console.log('saltar!')
+        break;
+    
+    default:
+        console.log('no sé que tecla es...')
+        break;
 }
 
 
