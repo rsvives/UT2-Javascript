@@ -1,5 +1,5 @@
 const mayoriaDeEdad = 18
-let edadUsuario = window.prompt('Introduce tu edad')
+let edadUsuario = 17
 
 
 if (edadUsuario >= mayoriaDeEdad) {
