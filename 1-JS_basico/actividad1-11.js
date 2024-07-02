@@ -1,8 +1,18 @@
-let tecla = 'a'
+let tecla = window.prompt('Pulsa una tecla de WASD')
 
 if (tecla === 'a') {
-    //...
+    console.log('izquierda!')
+}else if(tecla ==='d'){
+    console.log('derecha!')
+}else if(tecla ==='w'){
+    console.log('saltar!')
+}else if(tecla ==='s'){
+    console.log('agacharse!')
+}else {
+    console.log('no sé que letra es esa...!')
 }
+
+
 
 //if else if....
 // si tecla es=== a
