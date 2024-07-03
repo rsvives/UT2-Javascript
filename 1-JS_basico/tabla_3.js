@@ -1,7 +1,12 @@
-for (let i = 1; i <= 10; i += 1) {
-    let fila = '3x' + i + '=' + 3 * i
-    console.log(fila)
 
-    // console.log(`3 x ${i}  =  ${i * 3} `)
+
+const multiplicador = 3
+
+for (let contador = 1; contador <= 10; contador++) {
+    // let fila = '3x' + i + '=' + 3 * i
+    // console.log(fila)
+    console.log(multiplicador + 'x' + contador + '=' + contador * multiplicador)
+    // console.log(`${multiplicador} x ${contador}  =  ${contador * multiplicador} `)
 
 }
+
