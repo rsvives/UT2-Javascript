@@ -2,21 +2,28 @@ console.log('factorial!')
 
 
 let resultado = 1;
+
+
 let texto = '';
 
+
 for (let i = 1; i <= 5; i++) {
-	resultado = resultado * i;
-	let simbolo;
 
+	let chorizo
 	if (i === 5) {
-		simbolo = "=";
+		chorizo = ' = '
 	} else {
-		simbolo = 'x';
+		chorizo = 'x'
 	}
-	texto = texto + i + simbolo;
-	// console.log(texto)
-}
-// console.log(resultado)
 
-console.log(`5!= ${texto} ${resultado}`)
+	texto = texto + i + chorizo
+
+	resultado = resultado * i
+
+}
+
+
+
+console.log('5! = ' + texto + resultado)
+
 
