@@ -2,24 +2,22 @@ console.log('factorial!')
 
 
 let resultado = 1;
-
-
 let texto = '';
 
 
 for (let i = 1; i <= 5; i++) {
 
-	let chorizo
+	let simbolo
 	if (i === 5) {
-		chorizo = ' = '
+		simbolo = ' = '
 	} else {
-		chorizo = 'x'
+		simbolo = 'x'
 	}
 
-	texto = texto + i + chorizo
+	// let simbolo = i === 5 ? ' = ' : 'x'
 
+	texto = texto + i + simbolo
 	resultado = resultado * i
-
 }
 
 
