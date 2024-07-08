@@ -12,8 +12,22 @@ function saludar( genero, nombre='Desconocido'){
         distintivo='Sra'
     }
     console.log('Hola '+ distintivo +' '+ nombre );
+
 }
 
 saludar('Mujer','Judit')
 saludar('Hombre','Rodri')
 saludar('fhasdfhs')
+
+
+
+
+
+
+
+
+
+
+
+
+
