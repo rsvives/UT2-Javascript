@@ -4,7 +4,7 @@ function saludar(nombre, primerApellido, segundoApellido) {
     console.log(`Hola  ${nombre}  ${primerApellido} ${segundoApellido}`)
 }
 
-saludar('minombre', 'serran', 'vives')
+saludar('Rodri', 'Serrán', 'Vives')
 
 
 
