@@ -4,12 +4,16 @@ console.log('Saludar');
 
 
 function saludar( genero, nombre='Desconocido'){
-    let distintivo= 'Sr o Sra'
+    let distintivo
 
     if(genero=== 'Hombre'){
         distintivo='Sr';
     }else if(genero==='Mujer'){
         distintivo='Sra'
+    }else if(genero==='Fluido'){
+        distintivo='X'
+    }else{
+        distintivo= 'Sr o Sra'
     }
     console.log('Hola '+ distintivo +' '+ nombre );
 
