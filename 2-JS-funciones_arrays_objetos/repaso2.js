@@ -5,8 +5,11 @@
  * 
  */
 
-while(){
-  
+let contraseñaUsuario =''
+while(contraseñaUsuario!=='tiburón elegante'){
+    contraseñaUsuario = prompt('Dime la contraseña')
 }
 
 console.log('adelante, puedes pasar')
+
+
