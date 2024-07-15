@@ -6,7 +6,7 @@ function numConsecutivos (numMin, numMax) {
     for (let valor = numMin; valor <= numMax; valor++) {
         numeros.push(valor); 
     }
-
+    
     //iterar mostrando valor y posición
     for (let posicion = 0; posicion < numeros.length; posicion++) {
         console.log("Valor:", numeros[posicion], "Pos:", posicion);  
