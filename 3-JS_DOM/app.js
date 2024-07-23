@@ -1,6 +1,6 @@
-let encabezado = document.querySelector('h1')
-console.log(encabezado)
-encabezado.innerHTML = 'Aprendiendo JS'
+let h1 = document.querySelector('h1')
+console.log(h1)
+h1.innerHTML = 'Aprendiendo JS'
 
 // let h2 = document.getElementById('subtitulo')
 let h2 = document.querySelector('h2:last-of-type')
@@ -24,3 +24,24 @@ let cajita = 'pepe'
 function pruebas() {
     console.log('estoy haciendo click y llamando a una funcion')
 }
+
+
+
+
+function cambiarARojo() {
+    // console.log('cambio a rojo')
+    h1.style.color = 'red'
+}
+
+function cambiarAAzul() {
+    // console.log('cambio a azul')
+    h1.style.color = 'blue'
+}
+
+let botonAzul = document.querySelector('#btn-azul')
+let botonRojo = document.getElementById('btn-rojo')
+
+
+
+botonRojo.onclick = cambiarARojo
+botonAzul.onclick = cambiarAAzul
